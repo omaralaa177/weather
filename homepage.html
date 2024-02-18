@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Weather Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>World Weather Search</h1>
+        <p class="welcome-message">Welcome to your one-stop shop for accurate and up-to-date weather information anywhere in the world!</p>
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Enter city name or coordinates">
+            <button id="searchButton">Search</button>
+        </div>
+        <div class="weather-info">
+            <h2 id="enteredLocation"></h2> <img id="weatherIcon" src="">
+            <div>
+                <span id="temperature"></span>°C
+                <p id="weatherDescription"></p>
+                <ul class="additional-info">
+                    <li id="feelsLike"></li>
+                    <li id="humidity"></li>
+                    <li id="windSpeed"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
